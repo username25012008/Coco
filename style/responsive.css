@@ -1,0 +1,175 @@
+@media (min-width:320px) and (max-width:767px) {
+    .nav_menu {
+        display: none;
+    }
+
+    .con {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .all_nav {
+        padding: 15px 0;
+    }
+
+    .logo {
+        width: 112px;
+    }
+
+    .all_header {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .header_left h1 {
+        font-size: 32px;
+    }
+
+    .header_left_text {
+        margin-top: 48px;
+    }
+
+    .header_left p {
+        font-size: 16px;
+    }
+
+    .all_header {
+        padding: 32px 0;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .head_btn {
+        margin-top: 40px;
+        width: 287px;
+    }
+
+    .head_btn button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .head_btn input {
+        width: 180px;
+        padding-left: 10px;
+        padding: 10px 0;
+    }
+
+    .head_btn input::placeholder {
+        font-size: 14px;
+    }
+
+    .head_img_one {
+        width: 200px;
+    }
+
+    .head_img img:nth-child(1) {
+        width: 287px;
+        height: 277px;
+    }
+
+    .head_img img:nth-child(2) {
+        position: absolute;
+        top: -20px;
+        right: 30px;
+        width: 118px;
+        height: 122px;
+    }
+
+    .mon_span span:nth-child(1) {
+        font-size: 11px;
+    }
+
+    .mon_span span:nth-child(2) {
+        font-size: 11px;
+    }
+
+    .mon_span h1 {
+        font-size: 16px;
+    }
+
+    .mon_left p {
+        font-size: 11px;
+    }
+
+    .mon_right p {
+        font-size: 11px;
+    }
+
+    .head_mon {
+        gap: 40px;
+        text-wrap: nowrap;
+    }
+
+    .section_title h1 {
+        font-size: 24px;
+    }
+
+    .section_title p {
+        font-size: 14px;
+    }
+
+    .all_sec {
+        padding: 40px 0;
+    }
+
+    .section_grid {
+        grid-template-columns: 280px;
+        gap: 24px;
+    }
+
+    .grid_item {
+        margin-top: 32px;
+    }
+
+    .grid_item p {
+        font-size: 14px;
+    }
+
+    .grid_item h1,
+    .item {
+        font-size: 18px;
+    }
+
+    .com_img {
+        width: 280px;
+        height: 300px;
+    }
+
+    .com_bar {
+        width: 155px;
+        height: 170px;
+        position: absolute;
+        bottom: 20px;
+        left: 110px;
+    }
+
+    .all_company {
+        flex-direction: column;
+        width: 280px;
+        padding: 55px 0;
+    }
+
+    .com_right h1 {
+        font-size: 24px;
+        max-width: 280px;
+    }
+
+    .com_right p {
+        font-size: 14px;
+        max-width: 280px;
+    }
+
+    .com_right {
+        width: 100%;
+    }
+
+    .com_check li {
+        font-size: 14px;
+    }
+}
